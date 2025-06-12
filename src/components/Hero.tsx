@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
             {/* Badge */}
             <div className="inline-flex items-center px-4 py-2 bg-lime-400/10 border border-lime-400/20 rounded-full text-lime-400 text-sm font-medium">
               <Award className="h-4 w-4 mr-2" />
-              Especialistas Certificados em Marketing Digital
+              Especialistas em Marketing
             </div>
 
             <div className="space-y-6">
@@ -52,10 +52,10 @@ const Hero: React.FC = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
-              <button className="inline-flex items-center px-8 py-4 border-2 border-lime-400 text-lime-400 font-semibold rounded-lg hover:bg-lime-400 hover:text-gray-900 transition-all duration-300 group">
+              {/* <button className="inline-flex items-center px-8 py-4 border-2 border-lime-400 text-lime-400 font-semibold rounded-lg hover:bg-lime-400 hover:text-gray-900 transition-all duration-300 group">
                 <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                 Ver Cases de Sucesso
-              </button>
+              </button> */}
             </div>
 
             {/* Enhanced Stats */}
@@ -63,21 +63,21 @@ const Hero: React.FC = () => {
               <div className="text-center group">
                 <div className="flex items-center justify-center mb-2">
                   <TrendingUp className="h-6 w-6 text-lime-400 mr-2" />
-                  <div className="text-3xl font-bold text-lime-400">4+</div>
+                  <div className="text-3xl font-bold text-lime-400">2 anos</div>
                 </div>
-                <div className="text-gray-400 text-sm">Anos Transformando Empresas</div>
+                <div className="text-gray-400 text-sm">Transformando Empresas</div>
               </div>
               <div className="text-center group">
                 <div className="flex items-center justify-center mb-2">
                   <Users className="h-6 w-6 text-lime-400 mr-2" />
-                  <div className="text-3xl font-bold text-lime-400">200+</div>
+                  <div className="text-3xl font-bold text-lime-400">+100</div>
                 </div>
                 <div className="text-gray-400 text-sm">Campanhas Otimizadas</div>
               </div>
               <div className="text-center group">
                 <div className="flex items-center justify-center mb-2">
                   <Award className="h-6 w-6 text-lime-400 mr-2" />
-                  <div className="text-3xl font-bold text-lime-400">5x</div>
+                  <div className="text-3xl font-bold text-lime-400">3x</div>
                 </div>
                 <div className="text-gray-400 text-sm">ROI Médio Alcançado</div>
               </div>
@@ -103,10 +103,10 @@ const Hero: React.FC = () => {
                     className="w-8 h-8 rounded-full border-2 border-lime-400"
                   />
                 </div>
-                <span className="text-lime-400 text-sm font-semibold ml-3">+50 empresas confiam em nós</span>
+                <span className="text-lime-400 text-sm font-semibold ml-3">Os parceiros confiam em nós</span>
               </div>
               <p className="text-gray-300 text-sm italic">
-                "Em 3 meses, nosso ROI aumentou 400% e reduzimos o custo por lead em 60%. Profissionais excepcionais!"
+                "Em 3 meses, nosso ROI aumentou e reduzimos o custo por lead 30%. Profissionais excepcionais!"
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Hero: React.FC = () => {
                       <div className="text-white font-bold">Meta Ads • Google Ads</div>
                     </div>
                     <div className="text-right">
-                      <div className="text-lime-400 text-lg font-bold">+285%</div>
+                      <div className="text-lime-400 text-lg font-bold">+30%</div>
                       <div className="text-gray-300 text-xs">ROI Este Mês</div>
                     </div>
                   </div>
