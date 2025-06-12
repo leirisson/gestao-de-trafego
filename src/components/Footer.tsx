@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <img
-              src="/images/sebrae.png"
+              src="../images/sebrae.png"
               alt="Case de sucesso e-commerce"
               className="w-32 h-32  grayscale object-cover rounded"
             />
