@@ -4,7 +4,38 @@ import { Instagram, Linkedin, Mail, Phone } from 'lucide-react';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 py-12 border-t border-gray-800">
-      <div className="container mx-auto px-4">
+
+      {/* parceiros */}
+      <h4 className='text-4xl md:text-5xl grayscale text-center font-bold text-white mb-6'>As melhores e maiores empresas contam com nossas soluções!</h4>
+      <div className="from-lime-400/10 to-transparent p-8 flex justify-around   rounded-2xl ">
+
+        <div className="grid md:grid-cols-3 gap-10 text-center">
+          <div >
+            <img
+              src="/images/vitoria.png"
+              alt="Case de sucesso e-commerce"
+              className="w-36 h-32 object-cover grayscale rounded"
+            />
+          </div>
+          <div>
+            <img
+              src="/images/sebrae.png"
+              alt="Case de sucesso e-commerce"
+              className="w-32 h-32  grayscale object-cover rounded"
+            />
+          </div>
+          <div>
+            <img
+              src="/images/simmons.png"
+              alt="Case de sucesso e-commerce"
+              className="w-32 h-32 grayscale object-cover rounded"
+            />
+          </div>
+        </div>
+      </div>
+
+
+      <div className="container mt-7 mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
@@ -12,21 +43,21 @@ const Footer: React.FC = () => {
               Marketing <span className="text-lime-400">Digital</span>
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Transformando empresas através de estratégias inteligentes 
+              Transformando empresas através de estratégias inteligentes
               de tráfego pago e consultoria especializada.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="https://instagram.com/seuperfil" 
-                target="_blank" 
+              <a
+                href="https://instagram.com/seuperfil"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-lime-400 hover:text-gray-900 transition-all duration-300 group"
               >
                 <Instagram className="h-5 w-5 text-lime-400 group-hover:text-gray-900" />
               </a>
-              <a 
-                href="https://linkedin.com/seuperfil" 
-                target="_blank" 
+              <a
+                href="https://linkedin.com/seuperfil"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-lime-400 hover:text-gray-900 transition-all duration-300 group"
               >
@@ -75,7 +106,7 @@ const Footer: React.FC = () => {
                 (11) 99999-9999
               </div>
             </div>
-            
+
             <div className="mt-6">
               <a
                 href="#formulario"

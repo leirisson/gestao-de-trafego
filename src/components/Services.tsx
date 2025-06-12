@@ -251,11 +251,13 @@ const Services: React.FC = () => {
                 <p className="text-gray-300 text-sm">em 3 meses</p>
               </div>
               <div className="text-center">
+                
                 <img 
                   src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" 
                   alt="Case de sucesso consultoria" 
                   className="w-full h-32 object-cover rounded-lg mb-4"
                 />
+                
                 <h4 className="text-white font-semibold mb-2">Consultoria Jurídica</h4>
                 <p className="text-lime-400 text-2xl font-bold">-65% CPL</p>
                 <p className="text-gray-300 text-sm">custo por lead</p>
