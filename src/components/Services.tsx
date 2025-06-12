@@ -247,7 +247,7 @@ const Services: React.FC = () => {
                   className="w-full h-32 object-cover rounded-lg mb-4"
                 />
                 <h4 className="text-white font-semibold mb-2">E-commerce de Moda</h4>
-                <p className="text-lime-400 text-2xl font-bold">+400% ROI</p>
+                <p className="text-lime-400 text-2xl font-bold">+110% ROI</p>
                 <p className="text-gray-300 text-sm">em 3 meses</p>
               </div>
               <div className="text-center">

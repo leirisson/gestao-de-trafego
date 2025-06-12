@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Play, TrendingUp, Users, Award } from 'lucide-react';
+import { ArrowRight, TrendingUp, Users, Award } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const Hero: React.FC = () => {
@@ -143,7 +143,7 @@ const Hero: React.FC = () => {
               <div className="flex items-center">
                 <TrendingUp className="h-5 w-5 text-lime-400 mr-2" />
                 <div>
-                  <div className="text-lime-400 text-xl font-bold">+285%</div>
+                  <div className="text-lime-400 text-xl font-bold">+110%</div>
                   <div className="text-gray-300 text-xs">ROI Último Mês</div>
                 </div>
               </div>

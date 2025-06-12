@@ -94,7 +94,7 @@ const About: React.FC = () => {
                 </li>
                 <li className="flex items-start text-gray-300">
                   <span className="text-lime-400 mr-3">✓</span>
-                  Monitoramento 24/7 das campanhas
+                  Monitoramento das campanhas
                 </li>
                 <li className="flex items-start text-gray-300">
                   <span className="text-lime-400 mr-3">✓</span>
@@ -123,7 +123,7 @@ const About: React.FC = () => {
                 </p>
                 <div className="flex items-center text-lime-400 text-sm font-semibold">
                   <Clock className="h-4 w-4 mr-2" />
-                  Resultados em 7-14 dias
+                  Os melhores resultados
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ const About: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">Otimização Contínua</h3>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  Monitoramento 24/7 das campanhas com ajustes em tempo real 
+                  Monitoramento das campanhas com ajustes em tempo real 
                   para maximizar performance e reduzir custos.
                 </p>
                 <div className="flex items-center text-lime-400 text-sm font-semibold">
@@ -169,7 +169,7 @@ const About: React.FC = () => {
           <div className="mt-16 bg-gradient-to-r from-lime-400/10 to-transparent p-8 rounded-2xl border border-lime-400/20">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-3xl font-bold text-lime-400 mb-2">285%</div>
+                <div className="text-3xl font-bold text-lime-400 mb-2">110%</div>
                 <div className="text-gray-300 text-sm">Aumento médio de ROI</div>
               </div>
               <div>
@@ -181,7 +181,7 @@ const About: React.FC = () => {
                 <div className="text-gray-300 text-sm">Mais conversões</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-lime-400 mb-2">14 dias</div>
+                <div className="text-3xl font-bold text-lime-400 mb-2">30 dias</div>
                 <div className="text-gray-300 text-sm">Para primeiros resultados</div>
               </div>
             </div>

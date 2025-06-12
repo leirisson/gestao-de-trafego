@@ -106,7 +106,7 @@ const Hero: React.FC = () => {
                 <span className="text-lime-400 text-sm font-semibold ml-3">+50 empresas confiam em nós</span>
               </div>
               <p className="text-gray-300 text-sm italic">
-                "Em 3 meses, nosso ROI aumentou 400% e reduzimos o custo por lead em 60%. Profissionais excepcionais!"
+                "Em 3 meses, nosso ROI aumentou 110% e reduzimos o custo por lead em 60%. Profissionais excepcionais!"
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Hero: React.FC = () => {
                       <div className="text-white font-bold">Meta Ads • Google Ads</div>
                     </div>
                     <div className="text-right">
-                      <div className="text-lime-400 text-lg font-bold">+285%</div>
+                      <div className="text-lime-400 text-lg font-bold">+110%</div>
                       <div className="text-gray-300 text-xs">ROI Este Mês</div>
                     </div>
                   </div>
@@ -143,7 +143,7 @@ const Hero: React.FC = () => {
               <div className="flex items-center">
                 <TrendingUp className="h-5 w-5 text-lime-400 mr-2" />
                 <div>
-                  <div className="text-lime-400 text-xl font-bold">+285%</div>
+                  <div className="text-lime-400 text-xl font-bold">+110%</div>
                   <div className="text-gray-300 text-xs">ROI Último Mês</div>
                 </div>
               </div>
