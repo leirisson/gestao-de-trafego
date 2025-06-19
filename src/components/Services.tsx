@@ -119,7 +119,7 @@ const Services: React.FC = () => {
                   <div className="flex justify-between items-center">
                     <div>
                       <div className="text-lime-400 text-sm font-semibold mb-1">Investimento a partir de</div>
-                      <div className="text-white text-3xl font-bold">R$ 2.500<span className="text-lg text-gray-400">/mês</span></div>
+                      <div className="text-white text-3xl font-bold">R$ 997,00<span className="text-lg text-gray-400">/mês</span></div>
                       <div className="text-gray-400 text-sm">+ taxa de mídia (negociável)</div>
                     </div>
                     <div className="text-right">
@@ -216,7 +216,7 @@ const Services: React.FC = () => {
                   <div className="flex justify-between items-center">
                     <div>
                       <div className="text-lime-400 text-sm font-semibold mb-1">Investimento a partir de</div>
-                      <div className="text-white text-3xl font-bold">R$ 1.500<span className="text-lg text-gray-400">/mês</span></div>
+                      <div className="text-white text-3xl font-bold">R$ 197,00<span className="text-lg text-gray-400">/mês</span></div>
                       <div className="text-gray-400 text-sm">sessões personalizadas</div>
                     </div>
                     <div className="text-right">
