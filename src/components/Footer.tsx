@@ -12,21 +12,21 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-10 text-center">
           <div >
             <img
-              src="/images/vitoria.png"
+              src="https://res.cloudinary.com/drz9ydphc/image/upload/v1750293274/vitoria_xlq3dr.png"
               alt="Case de sucesso e-commerce"
               className="w-36 h-32 object-cover grayscale rounded"
             />
           </div>
           <div>
             <img
-              src="../images/sebrae.png"
+              src="https://res.cloudinary.com/drz9ydphc/image/upload/v1750293297/sebrae_klcjjg.png"
               alt="Case de sucesso e-commerce"
               className="w-32 h-32  grayscale object-cover rounded"
             />
           </div>
           <div>
             <img
-              src="/images/simmons.png"
+              src="https://res.cloudinary.com/drz9ydphc/image/upload/v1750293298/simmons_zsedip.png"
               alt="Case de sucesso e-commerce"
               className="w-32 h-32 grayscale object-cover rounded"
             />
