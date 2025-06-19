@@ -134,7 +134,7 @@ const ContactForm: React.FC = () => {
                 <div className="flex items-center p-4 bg-gray-800/30 rounded-lg border border-gray-700">
                   <Phone className="h-5 w-5 text-lime-400 mr-3" />
                   <div>
-                    <div className="text-white font-semibold">(11) 99999-9999</div>
+                    <div className="text-white font-semibold">(92) 98178-3279</div>
                     <div className="text-gray-400 text-sm">WhatsApp • Resposta imediata</div>
                   </div>
                 </div>
@@ -199,7 +199,7 @@ const ContactForm: React.FC = () => {
                       name="telefone"
                       value={formData.telefone}
                       onChange={handleChange}
-                      placeholder="(11) 99999-9999"
+                      placeholder="(92) 98178-3279"
                       className="w-full px-4 py-4 bg-gray-700 text-white rounded-lg border border-gray-600 focus:border-lime-400 focus:outline-none transition-colors"
                       required
                     />
