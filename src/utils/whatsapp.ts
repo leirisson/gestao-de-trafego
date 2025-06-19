@@ -18,7 +18,7 @@ Minha necessidade é: ${data.mensagem}`;
   return encodeURIComponent(message);
 };
 
-export const redirectToWhatsApp = (data: FormData, phoneNumber: string = '5511999999999') => {
+export const redirectToWhatsApp = (data: FormData, phoneNumber: string = '5592981783279') => {
   const message = generateWhatsAppMessage(data);
   const url = `https://wa.me/${phoneNumber}?text=${message}`;
   window.open(url, '_blank');
